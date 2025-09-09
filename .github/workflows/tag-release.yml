@@ -1,13 +1,17 @@
 name: Tag Release
-
 on:
-  pull_request:
-    types: [closed]
+  push:
+    branches: [ master ]
+
+permissions:
+  contents: write   # needed if tagging with GITHUB_TOKEN
 
 jobs:
   release:
-    uses: clouddrove/github-shared-workflows/.github/workflows/tag-release.yml@feat/tag-release
+    uses: clouddrove/github-shared-workflows/.github/workflows/tag-release.yml@v1
     with:
       target_branch: master
+    # Prefer GITHUB_TOKEN if your shared workflow supports it.
+    # If it requires a PAT, pass it explicitly:
     secrets:
       GITHUB: ${{ secrets.GITHUB }}
