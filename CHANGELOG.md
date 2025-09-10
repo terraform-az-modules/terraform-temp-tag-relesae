@@ -1,4 +1,9 @@
 
+## [1.2.1] - 2025-09-10
+### :bug: Bug Fixes
+- [`a3d874f`](https://github.com/terraform-az-modules/terraform-temp-tag-relesae/commit/a3d874fd81c7ce65e408c67e8aade7a76fe8b36e) - corrected main.tf *(commit by [@vedkops](https://github.com/vedkops))*
+
+
 ## [1.2.0] - 2025-09-10
 ### :bug: Bug Fixes
 - [`a138dc9`](https://github.com/terraform-az-modules/terraform-temp-tag-relesae/commit/a138dc95efa4cd94e34cdc6fff1e02d7b33a1599) - correct version metadata for tag release *(commit by [@vedkops](https://github.com/vedkops))*
@@ -16,3 +21,4 @@
 [1.1.0]: https://github.com/terraform-az-modules/terraform-temp-tag-relesae/compare/1.0.0...1.1.0
 [1.4.0]: https://github.com/terraform-az-modules/terraform-temp-tag-relesae/compare/1.3.0...1.4.0
 [1.2.0]: https://github.com/terraform-az-modules/terraform-temp-tag-relesae/compare/1.1.0...1.2.0
+[1.2.1]: https://github.com/terraform-az-modules/terraform-temp-tag-relesae/compare/1.2.0...1.2.1
