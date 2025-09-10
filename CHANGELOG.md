@@ -1,4 +1,10 @@
 
+## [2.1.0] - 2025-09-10
+### :bug: Bug Fixes
+- [`d78dfeb`](https://github.com/terraform-az-modules/terraform-temp-tag-relesae/commit/d78dfeb34506c94982c2e8980c72d5f204e96c13) - This is commit without labels *(commit by [@vedkops](https://github.com/vedkops))*
+- [`047a62e`](https://github.com/terraform-az-modules/terraform-temp-tag-relesae/commit/047a62e0eb3d91afcdd57992849a512054781ba8) - this commit has minor label in it *(commit by [@vedkops](https://github.com/vedkops))*
+
+
 ## [2.0.0] - 2025-09-10
 ### :bug: Bug Fixes
 - [`3dce057`](https://github.com/terraform-az-modules/terraform-temp-tag-relesae/commit/3dce057a83a43effee4f57a3be0a22f42c678c11) - correct version metadata for tag release *(commit by [@vedkops](https://github.com/vedkops))*
@@ -36,3 +42,4 @@
 [1.2.1]: https://github.com/terraform-az-modules/terraform-temp-tag-relesae/compare/1.2.0...1.2.1
 [1.2.2]: https://github.com/terraform-az-modules/terraform-temp-tag-relesae/compare/1.2.1...1.2.2
 [2.0.0]: https://github.com/terraform-az-modules/terraform-temp-tag-relesae/compare/1.2.2...2.0.0
+[2.1.0]: https://github.com/terraform-az-modules/terraform-temp-tag-relesae/compare/2.0.0...2.1.0
