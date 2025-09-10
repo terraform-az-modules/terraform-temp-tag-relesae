@@ -1,12 +1,11 @@
 name: Tag Release
-
 on:
   pull_request:
     types: [closed]
-
 jobs:
   release:
     uses: clouddrove/github-shared-workflows/.github/workflows/tag-release.yml@fix/tag-release
+    with:
       target_branch: master
     secrets:
       GITHUB: ${{ secrets.GITHUB }}
